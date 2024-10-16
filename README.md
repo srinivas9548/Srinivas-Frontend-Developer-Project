@@ -1,3 +1,6 @@
+### Published Link
+https://srinivas-frontend-developer.vercel.app/
+
 # The Matrix Labs Assignment
 
 ### Step 1: Set Up Your Development Environment
