@@ -1,0 +1,142 @@
+.nav-header {
+    background: #000000;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-header {
+        border-bottom: 2px solid #292828;
+    }
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-content {
+        width: 94%;
+    }
+}
+
+.nav-mobile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-mobile-container {
+        display: none;
+    }
+}
+
+.nav-mobile-logo-heading {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 8px;
+}
+
+.nav-menu-logo {
+    width: 36px;
+    background-color: #14141F;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.nav-desktop-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .nav-desktop-container {
+        display: none;
+    }
+}
+
+.nav-desktop-content-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-desktop-logo-heading {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 8px;
+}
+
+.nav-desktop-items-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-item {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.nav-desktop-buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-desktop-buttons-container {
+        gap: 18px;
+    }
+}
+
+.whitepaper-btn {
+    width: 130px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #fcfcf858;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+    .whitepaper-btn {
+        width: 140px;
+        height: 40px;
+    }
+}
+
+.get-started-btn {
+    width: 130px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #951eac, #f416d3);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+    .get-started-btn {
+        width: 140px;
+        height: 40px;
+    }
+}
